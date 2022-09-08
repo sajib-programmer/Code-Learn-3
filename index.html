@@ -43,9 +43,10 @@
         /* carousel style end */
         /* feedback slider style  */
         .feedback-slider {
-            height: 80vh;
             width: 100%;
         }
+
+        /* faq-section  */
     </style>
 </head>
 
@@ -57,7 +58,7 @@
             <nav class="navbar navbar-expand-lg my-3">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <h1><span class="text-info">Code</span><span class="text-success">Learn</span></h1>
+                        <h1><span class="text-info">Code</span><span class="text-danger">Learn</span></h1>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -349,7 +350,7 @@
             </section>
             <!-- student section end -->
             <!-- feedback section start  -->
-            <section class="feedback-section mt-5">
+            <section class="feedback-section">
                 <div class="container">
                     <h2 class="text-center my-4">Some Students Feedback</h2>
                     <p class="text-center">The Most Important to Know in Writing the Essay About Course Evaluation
@@ -373,7 +374,8 @@
                                                         <i class="fa-solid text-success fa-star-half-stroke"></i>
                                                     </div>
                                                 </div>
-                                                <p> Carve out an hour or two a day to walk in the park, get some air,
+                                                <p> Carve out an hour or two a day to walk in the
+                                                    park, get some air,
                                                     and go to the gym, go ice
                                                     skating. Do not forget about short pauses: every hour and a half, it
                                                     is worth being distracted
@@ -404,7 +406,8 @@
                                                         <i class="fa-solid text-success fa-star-half-stroke"></i>
                                                     </div>
                                                 </div>
-                                                <p> You should pay attention not only to grammar
+                                                <p> You should pay attention
+                                                    not only to grammar
                                                     but also try to use a
                                                     sufficient number of introductory constructions, set phrases,
                                                     phraseological units, and sayings
@@ -442,7 +445,7 @@
             </section>
             <!-- feedback section end  -->
             <!-- FAQ section start -->
-            <section class="faq-section">
+            <section class="faq-section my-5">
                 <div class="container">
                     <h2 class="text-center">Frequently Asked Questions</h2>
                     <p>A frequently asked questions list is often used in articles, websites, email lists, and online
@@ -459,7 +462,7 @@
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <div class="row g-4">
-                                        <div class="col-6">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
                                             <div class="p-3">
                                                 <h4 class="text-center">Flexbox</h4>
                                                 <p><strong>Flexbox:</strong> The CSS Flexbox offers a one-dimensional
@@ -469,7 +472,7 @@
                                                     devices and screen sizes.</p>
                                             </div>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
                                             <div class="p-3">
                                                 <h4 class="text-center">Grid</h4>
                                                 <p><strong>Grid:</strong> CSS Grid Layout, is a two-dimensional
@@ -494,7 +497,7 @@
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <div class="row g-4">
-                                        <div class="col-6">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
                                             <div class="p-3">
                                                 <h4 class="text-center">Bootstrap</h4>
                                                 <p><strong>Bootstrap</strong> was developed by Mark Otto and Jacob
@@ -518,7 +521,7 @@
                                                     helps to design and develop website templates quickly.</p>
                                             </div>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
                                             <div class="p-3">
                                                 <h4 class="text-center">Tailwind</h4>
                                                 <p><strong>Tailwind</strong> CSS was initially developed by Adam Wathan,
@@ -580,8 +583,37 @@
                 </div>
             </section>
             <!-- FAQ section end -->
+            <!-- companies area start  -->
+            <section class="companies d-sm-none d-md-none d-lg-block p-3 my-5">
+                <div class="container">
+                    <h2 class="text-center my-4">Trusted by over 800+ companies</h2>
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-2"><img src="images/company/company-1.png" alt="" class="img-fluid"></div>
+                        <div class="col-2"><img src="images/company/company-2.png" alt="" class="img-fluid"></div>
+                        <div class="col-2"><img src="images/company/company-3.png" alt="" class="img-fluid"></div>
+                        <div class="col-2"><img src="images/company/company-4.png" alt="" class="img-fluid"></div>
+                        <div class="col-2"><img src="images/company/company-5.png" alt="" class="img-fluid"></div>
+                        <div class="col-2"><img src="images/company/company-6.png" alt="" class="img-fluid"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- companies area end  -->
         </main>
     </div>
+    <footer class="bg-dark">
+        <div class="p-5">
+            <h1 class="text-center"><span class="text-info">Code</span><span class="text-danger">Learn</span></h1>
+            <p class="text-center text-white">Office 41, Zawaya Buildin, Ghala Muscat,
+                Sultanate of Oman</p>
+            <p class="text-center text-white">Privacy Ploicy | Terms of use</p>
+            <div class="text-center">
+                <i class="fa-brands p-2 text-white fa-facebook"></i>
+                <i class="fa-brands p-2 text-white fa-twitter"></i>
+                <i class="fa-brands p-2 text-white fa-linkedin-in"></i>
+                <i class="fa-brands p-2 text-white fa-tiktok"></i>
+            </div>
+        </div>
+    </footer>
     <!-- link bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
